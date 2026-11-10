@@ -1,0 +1,13 @@
+{
+  "camera_index": 0,
+  "backend": "dshow",
+  "image_size": [
+    640,
+    480
+  ],
+  "pattern_inner_corners": [
+    9,
+    6
+  ],
+  "captured_images": 40
+}

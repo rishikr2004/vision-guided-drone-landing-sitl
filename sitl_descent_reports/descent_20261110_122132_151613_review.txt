@@ -1,0 +1,51 @@
+Source: C:\Users\rishi\drone-precision-landing\sitl_descent_logs\descent_20261110_122132_151613.csv
+Rows: 2467
+Target-loss intervals: 1
+
+HIDDEN INTERVAL 1: 152.610 to 165.693 s; duration 13.083 s
+Rows: 130; commands sent: 130; nonzero commands: 0
+Visible-marker rows: 0; detections: 0
+Stale rows excluded: 0
+WHOLE HIDDEN WINDOW:
+Fresh unique position samples: 124
+North change: +0.207 cm; East change: -0.081 cm
+Horizontal net displacement: 0.223 cm
+Maximum sampled horizontal displacement from window start: 1.111 cm
+Sampled horizontal path length: 3.819 cm
+Horizontal speed first / last / mean / maximum: 0.0242 / 0.0211 / 0.0232 / 0.0284 m/s
+Down velocity first / last / min / max: +0.0987 / -0.0004 / -0.0123 / +0.0987 m/s
+Height first / last / min / max: 1.5720 / 1.5430 / 1.5367 / 1.5720 m
+Height change: -2.897 cm; height span: 3.523 cm
+AFTER FIRST 2 SECONDS (diagnostic window, not proof of settling):
+Fresh unique position samples: 104
+North change: +0.103 cm; East change: -0.001 cm
+Horizontal net displacement: 0.103 cm
+Maximum sampled horizontal displacement from window start: 1.018 cm
+Sampled horizontal path length: 3.501 cm
+Horizontal speed first / last / mean / maximum: 0.0217 / 0.0211 / 0.0236 / 0.0284 m/s
+Down velocity first / last / min / max: +0.0005 / -0.0004 / -0.0009 / +0.0040 m/s
+Height first / last / min / max: 1.5471 / 1.5430 / 1.5428 / 1.5472 m
+Height change: -0.414 cm; height span: 0.438 cm
+Next state: CONFIRMING TARGET - ZERO VELOCITY
+
+COMPLETION HOLD:
+Fresh unique position samples: 557
+North change: -0.077 cm; East change: -0.000 cm
+Horizontal net displacement: 0.077 cm
+Maximum sampled horizontal displacement from window start: 0.875 cm
+Sampled horizontal path length: 17.797 cm
+Horizontal speed first / last / mean / maximum: 0.0227 / 0.0201 / 0.0242 / 0.0303 m/s
+Down velocity first / last / min / max: +0.0203 / -0.0003 / -0.0019 / +0.0204 m/s
+Height first / last / min / max: 0.8172 / 0.8102 / 0.8098 / 0.8172 m
+Height change: -0.701 cm; height span: 0.736 cm
+
+LIMITATIONS:
+Intervals follow logged controller states; actual key-press times are not recorded.
+Motion starts at the first logged hidden sample, not the exact instant the marker disappeared.
+Only fresh telemetry is used, with repeated position timestamps removed within each window.
+Net displacement is endpoint separation; sampled path length sums intermediate movements.
+Sampled path length is affected by estimator noise and does not capture between-sample motion.
+Positive Down velocity means descent; negative height change means a lower final height.
+Commands are requests. Measured velocities are SITL estimates, not physical measurements.
+A zero-velocity request can be followed by braking movement; no automatic pass threshold is assumed.
+Completion hold is above ground, not a completed landing.

@@ -1,0 +1,57 @@
+Session: session_20261109_175221_567046
+Usable images: 39
+Image size: (640, 480)
+Overall fitting RMS: 0.158 pixels
+Worst image RMS: 0.407 pixels
+Camera matrix:
+[[630.68301311   0.         334.6174601 ]
+ [  0.         631.18885893 244.80215257]
+ [  0.           0.           1.        ]]
+Distortion coefficients:
+[[ 0.05118674 -0.37758722 -0.00218634  0.00447998  0.77063555]]
+
+Per-image fitting RMS (pixels):
+view_001.png: 0.125
+view_002.png: 0.134
+view_003.png: 0.112
+view_004.png: 0.114
+view_005.png: 0.151
+view_006.png: 0.171
+view_007.png: 0.182
+view_009.png: 0.166
+view_010.png: 0.126
+view_011.png: 0.118
+view_012.png: 0.118
+view_013.png: 0.109
+view_014.png: 0.099
+view_015.png: 0.095
+view_016.png: 0.110
+view_017.png: 0.105
+view_018.png: 0.102
+view_019.png: 0.097
+view_020.png: 0.058
+view_021.png: 0.069
+view_022.png: 0.108
+view_023.png: 0.066
+view_024.png: 0.114
+view_025.png: 0.110
+view_026.png: 0.101
+view_027.png: 0.106
+view_028.png: 0.079
+view_029.png: 0.108
+view_030.png: 0.123
+view_031.png: 0.167
+view_032.png: 0.224
+view_033.png: 0.202
+view_034.png: 0.269
+view_035.png: 0.201
+view_036.png: 0.180
+view_037.png: 0.115
+view_038.png: 0.407
+view_039.png: 0.266
+view_040.png: 0.271
+
+These are fitting errors on the calibration images, not independent accuracy measurements.
+Small fitting error alone does not prove correct distance estimates.
+Use the same camera, image size, focus and zoom for later measurements.
+Calibration is a candidate until checked with new views and physical measurements.

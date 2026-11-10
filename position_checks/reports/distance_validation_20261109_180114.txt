@@ -1,0 +1,21 @@
+Webcam marker distance validation
+
+Source: position_20261109_180114_708409.csv
+Reference distances were measured manually by the user.
+Confirmed labels: rows 1-5 = 40 cm; 6-10 = 30 cm; 11-20 = 50 cm.
+Marker width configured: 5.25 cm. Calibration: session_20261109_175221_567046.
+
+Ruler | Count | Mean estimate | Mean signed error | Error % | Min-max | Sample SD | RMSE
+30 cm | 5 | 31.13 cm | +1.13 cm | +3.77% | 31.09-31.19 cm | 0.041 cm | 1.13 cm
+40 cm | 5 | 41.54 cm | +1.54 cm | +3.86% | 41.48-41.59 cm | 0.041 cm | 1.54 cm
+50 cm | 10 | 52.84 cm | +2.84 cm | +5.68% | 52.75-52.99 cm | 0.067 cm | 2.84 cm
+
+Interpretation:
+Positive signed error means the estimate is higher than the ruler reference.
+SD describes variation within each short capture group; it is not absolute accuracy.
+RMSE is calculated against the user-supplied ruler distance.
+The unequal group sizes are reported separately; no pooled accuracy claim is made.
+These were three short, near-centred checks, not independent repositioning trials.
+Ruler placement, marker-size uncertainty, focus, glare and calibration can affect error.
+No correction multiplier has been fitted or applied.
+This does not validate drone landing, lateral position, orientation or other distances.

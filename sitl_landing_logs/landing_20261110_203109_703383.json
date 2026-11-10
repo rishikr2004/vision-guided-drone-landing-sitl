@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "phase": "SUCCESS",
+  "reason": "Confirmed landing and disarming",
+  "land_requested_s": 119.4492071000277,
+  "land_mode_confirmed_s": 119.55027529998915,
+  "on_ground_confirmed_s": 123.17452549998416,
+  "disarmed_confirmed_s": 123.87995650002267,
+  "success_s": 125.99177279998548,
+  "final_horizontal_offset_m": 0.020626714017828163,
+  "offset_definition": "Last fresh local-position horizontal distance to the fixed simulated marker at success confirmation",
+  "landing_method": "Vision-guided approach, then ArduPilot LAND; no vision correction after handover",
+  "events": [
+    {
+      "elapsed_s": 119.449,
+      "event": "LAND_REQUESTED"
+    },
+    {
+      "elapsed_s": 119.465,
+      "event": "LAND_COMMAND_ACK_0"
+    },
+    {
+      "elapsed_s": 119.55,
+      "event": "LAND_MODE_CONFIRMED"
+    },
+    {
+      "elapsed_s": 123.175,
+      "event": "ON_GROUND_CONFIRMED"
+    },
+    {
+      "elapsed_s": 123.88,
+      "event": "DISARMED_CONFIRMED"
+    },
+    {
+      "elapsed_s": 125.992,
+      "event": "SUCCESS_ON_GROUND_DISARMED_WITH_FRESH_POSITION"
+    }
+  ],
+  "csv_file": "C:\\Users\\rishi\\drone-precision-landing\\sitl_landing_logs\\landing_20261110_203109_703383.csv"
+}

@@ -1,0 +1,77 @@
+Source: C:\Users\rishi\drone-precision-landing\sitl_descent_logs\descent_20261110_115715_509084.csv
+Rows: 2157
+Target-loss intervals: 2
+
+HIDDEN INTERVAL 1: 82.827 to 89.968 s; duration 7.141 s
+Rows: 71; commands sent: 71; nonzero commands: 0
+Visible-marker rows: 0; detections: 0
+Stale rows excluded: 0
+WHOLE HIDDEN WINDOW:
+Fresh unique position samples: 71
+North change: -1.103 cm; East change: -0.136 cm
+Horizontal net displacement: 1.111 cm
+Maximum sampled horizontal displacement from window start: 1.139 cm
+Sampled horizontal path length: 2.772 cm
+Horizontal speed first / last / mean / maximum: 0.0184 / 0.0273 / 0.0225 / 0.0273 m/s
+Down velocity first / last / min / max: +0.1093 / -0.0010 / -0.0139 / +0.1093 m/s
+Height first / last / min / max: 1.9359 / 1.9028 / 1.8935 / 1.9359 m
+Height change: -3.308 cm; height span: 4.235 cm
+AFTER FIRST 2 SECONDS (diagnostic window, not proof of settling):
+Fresh unique position samples: 51
+North change: -0.935 cm; East change: -0.779 cm
+Horizontal net displacement: 1.217 cm
+Maximum sampled horizontal displacement from window start: 1.236 cm
+Sampled horizontal path length: 2.013 cm
+Horizontal speed first / last / mean / maximum: 0.0250 / 0.0273 / 0.0229 / 0.0273 m/s
+Down velocity first / last / min / max: -0.0031 / -0.0010 / -0.0031 / +0.0030 m/s
+Height first / last / min / max: 1.9041 / 1.9028 / 1.9019 / 1.9048 m
+Height change: -0.126 cm; height span: 0.290 cm
+Next state: CONFIRMING TARGET - ZERO VELOCITY
+
+HIDDEN INTERVAL 2: 100.032 to 104.160 s; duration 4.128 s
+Rows: 41; commands sent: 41; nonzero commands: 0
+Visible-marker rows: 0; detections: 0
+Stale rows excluded: 0
+WHOLE HIDDEN WINDOW:
+Fresh unique position samples: 41
+North change: +0.018 cm; East change: +0.548 cm
+Horizontal net displacement: 0.549 cm
+Maximum sampled horizontal displacement from window start: 0.872 cm
+Sampled horizontal path length: 1.476 cm
+Horizontal speed first / last / mean / maximum: 0.0241 / 0.0217 / 0.0226 / 0.0245 m/s
+Down velocity first / last / min / max: +0.0996 / +0.0005 / -0.0116 / +0.0996 m/s
+Height first / last / min / max: 1.1752 / 1.1475 / 1.1407 / 1.1752 m
+Height change: -2.766 cm; height span: 3.449 cm
+AFTER FIRST 2 SECONDS (diagnostic window, not proof of settling):
+Fresh unique position samples: 21
+North change: -0.337 cm; East change: -0.133 cm
+Horizontal net displacement: 0.362 cm
+Maximum sampled horizontal displacement from window start: 0.362 cm
+Sampled horizontal path length: 0.469 cm
+Horizontal speed first / last / mean / maximum: 0.0240 / 0.0217 / 0.0228 / 0.0245 m/s
+Down velocity first / last / min / max: +0.0004 / +0.0005 / +0.0004 / +0.0038 m/s
+Height first / last / min / max: 1.1500 / 1.1475 / 1.1475 / 1.1500 m
+Height change: -0.252 cm; height span: 0.254 cm
+Next state: CONFIRMING TARGET - ZERO VELOCITY
+
+COMPLETION HOLD:
+Fresh unique position samples: 838
+North change: +0.022 cm; East change: +0.239 cm
+Horizontal net displacement: 0.240 cm
+Maximum sampled horizontal displacement from window start: 0.801 cm
+Sampled horizontal path length: 22.204 cm
+Horizontal speed first / last / mean / maximum: 0.0243 / 0.0257 / 0.0237 / 0.0281 m/s
+Down velocity first / last / min / max: +0.0202 / +0.0004 / -0.0020 / +0.0202 m/s
+Height first / last / min / max: 0.8198 / 0.8140 / 0.8120 / 0.8198 m
+Height change: -0.579 cm; height span: 0.782 cm
+
+LIMITATIONS:
+Intervals follow logged controller states; actual key-press times are not recorded.
+Motion starts at the first logged hidden sample, not the exact instant the marker disappeared.
+Only fresh telemetry is used, with repeated position timestamps removed within each window.
+Net displacement is endpoint separation; sampled path length sums intermediate movements.
+Sampled path length is affected by estimator noise and does not capture between-sample motion.
+Positive Down velocity means descent; negative height change means a lower final height.
+Commands are requests. Measured velocities are SITL estimates, not physical measurements.
+A zero-velocity request can be followed by braking movement; no automatic pass threshold is assumed.
+Completion hold is above ground, not a completed landing.
