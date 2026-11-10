@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Keep raw webcam photographs local
+calibration/**/view_*.png
